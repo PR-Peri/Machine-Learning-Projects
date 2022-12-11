@@ -1,0 +1,133 @@
+{
+   "id": 3309375033,
+   "id_str": "3309375033",
+   "name": "Apple Support",
+   "screen_name": "AppleSupport",
+   "location": "Cupertino, CA",
+   "profile_location": {
+      "id": "36237ab3643ff2be",
+      "url": "https://api.twitter.com/1.1/geo/id/36237ab3643ff2be.json",
+      "place_type": "unknown",
+      "name": "Cupertino, CA",
+      "full_name": "Cupertino, CA",
+      "country_code": "",
+      "country": "",
+      "contained_within": [],
+      "bounding_box": null,
+      "attributes": {}
+   },
+   "description": "We\u2019re here to provide tips, tricks and helpful information when you need it most. We\u2019re available every day to answer your questions, from 5am-8pm Pacific.",
+   "url": "https://t.co/zFeqTSVTef",
+   "entities": {
+      "url": {
+         "urls": [
+            {
+               "url": "https://t.co/zFeqTSVTef",
+               "expanded_url": "http://support.apple.com",
+               "display_url": "support.apple.com",
+               "indices": [
+                  0,
+                  23
+               ]
+            }
+         ]
+      },
+      "description": {
+         "urls": []
+      }
+   },
+   "protected": false,
+   "followers_count": 1298665,
+   "friends_count": 32,
+   "listed_count": 5439,
+   "created_at": "Fri Jun 05 16:05:20 +0000 2015",
+   "favourites_count": 4,
+   "utc_offset": null,
+   "time_zone": null,
+   "geo_enabled": false,
+   "verified": true,
+   "statuses_count": 1341427,
+   "lang": null,
+   "status": {
+      "created_at": "Thu Mar 11 04:30:09 +0000 2021",
+      "id": 1369868222154047490,
+      "id_str": "1369868222154047490",
+      "text": "@Jack_Deyes Great question, you can learn more about the Apple One plan here: https://t.co/Lky7UAOui6 While they op\u2026 https://t.co/E4Xbf63Fxn",
+      "truncated": true,
+      "entities": {
+         "hashtags": [],
+         "symbols": [],
+         "user_mentions": [
+            {
+               "screen_name": "Jack_Deyes",
+               "name": "Jack Deyes",
+               "id": 3761905642,
+               "id_str": "3761905642",
+               "indices": [
+                  0,
+                  11
+               ]
+            }
+         ],
+         "urls": [
+            {
+               "url": "https://t.co/Lky7UAOui6",
+               "expanded_url": "https://s.apple.com/dE7a1r8q2v",
+               "display_url": "s.apple.com/dE7a1r8q2v",
+               "indices": [
+                  78,
+                  101
+               ]
+            },
+            {
+               "url": "https://t.co/E4Xbf63Fxn",
+               "expanded_url": "https://twitter.com/i/web/status/1369868222154047490",
+               "display_url": "twitter.com/i/web/status/1\u2026",
+               "indices": [
+                  117,
+                  140
+               ]
+            }
+         ]
+      },
+      "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+      "in_reply_to_status_id": 1369848169710948353,
+      "in_reply_to_status_id_str": "1369848169710948353",
+      "in_reply_to_user_id": 3761905642,
+      "in_reply_to_user_id_str": "3761905642",
+      "in_reply_to_screen_name": "Jack_Deyes",
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+   },
+   "contributors_enabled": false,
+   "is_translator": false,
+   "is_translation_enabled": false,
+   "profile_background_color": "000000",
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+   "profile_background_tile": false,
+   "profile_image_url": "http://pbs.twimg.com/profile_images/1174747027986452480/cSlw47L-_normal.png",
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1174747027986452480/cSlw47L-_normal.png",
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/3309375033/1614618010",
+   "profile_link_color": "0070C9",
+   "profile_sidebar_border_color": "000000",
+   "profile_sidebar_fill_color": "000000",
+   "profile_text_color": "000000",
+   "profile_use_background_image": false,
+   "has_extended_profile": false,
+   "default_profile": false,
+   "default_profile_image": false,
+   "following": true,
+   "follow_request_sent": false,
+   "notifications": false,
+   "translator_type": "none"
+}

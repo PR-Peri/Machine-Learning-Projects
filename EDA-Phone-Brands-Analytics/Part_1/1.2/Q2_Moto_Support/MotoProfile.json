@@ -1,0 +1,131 @@
+{
+   "id": 334953605,
+   "id_str": "334953605",
+   "name": "Motorola Support",
+   "screen_name": "Moto_Support",
+   "location": "",
+   "profile_location": null,
+   "description": "Official Motorola Support - mobile devices! Mon-Sun during regional work hours & 24/7 on https://t.co/EWTuZzZm8z & http://t.co/Y1Ttw11XyS.",
+   "url": "https://t.co/kCt0TRiFIX",
+   "entities": {
+      "url": {
+         "urls": [
+            {
+               "url": "https://t.co/kCt0TRiFIX",
+               "expanded_url": "https://www.motorola.com/us/home",
+               "display_url": "motorola.com/us/home",
+               "indices": [
+                  0,
+                  23
+               ]
+            }
+         ]
+      },
+      "description": {
+         "urls": [
+            {
+               "url": "https://t.co/EWTuZzZm8z",
+               "expanded_url": "https://www.motorola.com/country-selector",
+               "display_url": "motorola.com/country-select\u2026",
+               "indices": [
+                  89,
+                  112
+               ]
+            },
+            {
+               "url": "http://t.co/Y1Ttw11XyS",
+               "expanded_url": "http://forums.motorola.com",
+               "display_url": "forums.motorola.com",
+               "indices": [
+                  115,
+                  137
+               ]
+            }
+         ]
+      }
+   },
+   "protected": false,
+   "followers_count": 95079,
+   "friends_count": 275,
+   "listed_count": 200,
+   "created_at": "Wed Jul 13 22:47:31 +0000 2011",
+   "favourites_count": 77,
+   "utc_offset": null,
+   "time_zone": null,
+   "geo_enabled": true,
+   "verified": true,
+   "statuses_count": 105674,
+   "lang": null,
+   "status": {
+      "created_at": "Thu Mar 11 10:45:43 +0000 2021",
+      "id": 1369962736197787652,
+      "id_str": "1369962736197787652",
+      "text": "@AnujKum69317069 Hi Anuj, thanks for writing to us! We understand your concern. Since our Service Center needs to d\u2026 https://t.co/w0GEKCNyLx",
+      "truncated": true,
+      "entities": {
+         "hashtags": [],
+         "symbols": [],
+         "user_mentions": [
+            {
+               "screen_name": "AnujKum69317069",
+               "name": "Anuj Kumar",
+               "id": 1217877429202505728,
+               "id_str": "1217877429202505728",
+               "indices": [
+                  0,
+                  16
+               ]
+            }
+         ],
+         "urls": [
+            {
+               "url": "https://t.co/w0GEKCNyLx",
+               "expanded_url": "https://twitter.com/i/web/status/1369962736197787652",
+               "display_url": "twitter.com/i/web/status/1\u2026",
+               "indices": [
+                  117,
+                  140
+               ]
+            }
+         ]
+      },
+      "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+      "in_reply_to_status_id": 1369960610545344515,
+      "in_reply_to_status_id_str": "1369960610545344515",
+      "in_reply_to_user_id": 1217877429202505728,
+      "in_reply_to_user_id_str": "1217877429202505728",
+      "in_reply_to_screen_name": "AnujKum69317069",
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+   },
+   "contributors_enabled": false,
+   "is_translator": false,
+   "is_translation_enabled": false,
+   "profile_background_color": "000000",
+   "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+   "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+   "profile_background_tile": false,
+   "profile_image_url": "http://pbs.twimg.com/profile_images/1358926407246700549/HX5UCyDE_normal.jpg",
+   "profile_image_url_https": "https://pbs.twimg.com/profile_images/1358926407246700549/HX5UCyDE_normal.jpg",
+   "profile_banner_url": "https://pbs.twimg.com/profile_banners/334953605/1422551377",
+   "profile_link_color": "3B94D9",
+   "profile_sidebar_border_color": "000000",
+   "profile_sidebar_fill_color": "000000",
+   "profile_text_color": "000000",
+   "profile_use_background_image": false,
+   "has_extended_profile": false,
+   "default_profile": false,
+   "default_profile_image": false,
+   "following": false,
+   "follow_request_sent": false,
+   "notifications": false,
+   "translator_type": "none"
+}
