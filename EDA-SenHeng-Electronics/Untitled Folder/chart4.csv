@@ -1,0 +1,12 @@
+Price_Range,Brand,count
+tier_0k,HP,2
+tier_10k,HP,3
+tier_10k,Microsoft,1
+tier_14k,MSI,2
+tier_20k,MSI,1
+tier_2k,HP,5
+tier_2k,MSI,1
+tier_2k,Microsoft,4
+tier_2k,TP-Link,25
+tier_6k,HP,12
+tier_6k,MSI,3

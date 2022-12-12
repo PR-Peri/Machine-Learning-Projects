@@ -1,0 +1,36 @@
+Brand,Stock,count
+Acer,In Stock,6
+Acer,Out Of Stock,6
+Apple,In Stock,8
+Apple,Out Of Stock,2
+Asus,In Stock,2
+Asus,Out Of Stock,9
+Boomwave,In Stock,2
+Boomwave,Out Of Stock,1
+Canon,In Stock,3
+Canon,Out Of Stock,4
+Dynabook,In Stock,1
+Epson,In Stock,1
+Epson,Out Of Stock,1
+HONOR,In Stock,2
+HP,In Stock,7
+HP,Out Of Stock,22
+HUAWEI,In Stock,5
+HUAWEI,Out Of Stock,1
+Logitech,In Stock,9
+Logitech,Out Of Stock,5
+MSI,In Stock,31
+MSI,Out Of Stock,7
+Mi,Out Of Stock,1
+Microsoft,In Stock,37
+Microsoft,Out Of Stock,5
+Promate,In Stock,2
+Promate,Out Of Stock,1
+ROG,Out Of Stock,1
+Rapoo,In Stock,1
+Samsung,In Stock,2
+Samsung,Out Of Stock,6
+SanDisk,Out Of Stock,6
+TP-Link,In Stock,28
+TP-Link,Out Of Stock,25
+Targus,In Stock,1

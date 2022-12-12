@@ -1,0 +1,36 @@
+This plate_detecion.py file need to be in the same directory as the image data files.
+
+File name - description
+
+1. Kaggle - this file contains 230 car images (original)
+2. Kaggle_cropped - this file contains 230 cropped license plate images (saved)
+
+3. Kaggle_subset - this file contains 30 subset Kaggle car images (original)
+4. Kaggle_output - this file contains 30 subset cropped licence plate images (saved)
+
+5. Malaysia - this file contains 76 Malaysia car images (original)
+6. Malaysia_cropped - this file contains 76 cropped licence plate images (saved)
+
+7. Malaysia_subset - this file contains 30 subset Malaysia car images (original)
+8. Malaysia_output - this file contains 30 subset cropped license plate images (saved)
+
+
+Note:
+Please change the folder name accordingly for each different testing. 
+
+In line 15 of the py code file, change the folder name when you need to test run the others.
+Selection folders for line 15 is the original data image, user can change among:
+	i) Kaggle           - 230 images
+	ii) Kaggle_subset   - 30 images
+	iii) Malaysia       - 76 images
+	iv) Malaysia_subset - 30 images
+
+In line 17 of the py code file, user can change the folder name accordingly for each license plate to be saved.
+
+-> "Kaggle_cropped" will save the cropped out images from "Kaggle"
+-> "Kaggle_output" will save the cropped out images from "Kaggle_subset"
+-> "Malaysia_cropped" will save the cropped out images from "Malaysia"
+-> "Malaysia_output" will save the cropped out images from "Malaysia_subset"
+
+
+Thank you.
