@@ -3,7 +3,7 @@
 
 <p> 
 
-Dataset is extracted from UCI Machine Learning Repo 
+Dataset is extracted from UCI Machine Learning Repository 
   <href> 
           https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29 
   </href>
@@ -13,6 +13,5 @@ Dataset is extracted from UCI Machine Learning Repo
             For this project, my goal was to analyze the dataset and evaluate the performance of 
             Logistic Regression model for predicting breast cancer. Not only that, this model will help to maximise
             precision and detect all malignant tumors with a better precision.
-
-
+            
 </p>
