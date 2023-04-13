@@ -10,8 +10,7 @@ The test set contains 16000 examples. There are 171 attributes per record.
 
 Dataset - https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks
 
-Findings : 
-
+<h4>
 For the data cleaning part,  we addressed null values in the data cleaning process by replacing them with either the median or mode depending on the variable 
 data type (int, float, object). Skewness values greater than 1 or less than -1 indicate highly skewed distributions (right/positive or left/negative skewness),
 while values between 0.5 and 1 or -0.5 and -1 indicate moderately skewed distributions. A value between -0.5 and 0.5 suggests a fairly symmetrical distribution.
@@ -54,4 +53,4 @@ These metrics provide insights into how well the model is performing and how wel
 
 The random forest model exhibited the best overall performance in our case. Therefore, we will be utilizing it to predict the classes for the testing data.
 
-
+</h4>
