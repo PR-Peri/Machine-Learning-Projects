@@ -63,47 +63,41 @@ def scrape_product_images(product_codes):
     """
     Scrapes all the product media (images and video) into local directory
     """
-
+    
     for product_code in product_codes:
-        # Converts the code from float to string
-        product_code = str(product_code)
+        
+        try:
+            product_code = str(product_code)
+            # Format the product URL based on the product code
+            product_url = f"https://www2.hm.com/en_my/productpage.{product_code}.html"        
+            # Create a directory for the product code
+            os.makedirs(product_code, exist_ok=True)
 
-        # Format the product URL based on the product code
-        product_url = f"https://www2.hm.com/en_my/productpage.{product_code}.html"
-        print(product_url)
+            # Initialize the webdriver
+            driver = webdriver.Chrome('/path/to/chromedriver')
+            driver.get(product_url)
 
-        # Create a directory for the product code
-        os.makedirs(product_code, exist_ok=True)
+            # Wait for the images to load
+            wait = WebDriverWait(driver, 10)
+            wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.product-detail-main-image-container img, .pdp-secondary-image img')))
 
-        # Initialize the webdriver
-        options = webdriver.ChromeOptions()
-        options.add_argument('--ignore-certificate-errors')
-        options.add_argument('--incognito')
-        options.add_argument('--headless')
-        driver = webdriver.Chrome(options=options)
-        driver.get(product_url)
+            # Get the image sources
+            images = driver.find_elements(By.CSS_SELECTOR, '.product-detail-main-image-container img, .pdp-secondary-image img')
+            image_sources = [re.sub('^//', 'https://', image.get_attribute('src')) for image in images]
 
-        # Wait for the images to load
-        wait = WebDriverWait(driver, 10)
-        wait.until(EC.presence_of_all_elements_located(
-            (By.CSS_SELECTOR, '.product-detail-main-image-container img, .pdp-secondary-image img')))
-
-        # Get the image sources from the browser
-        images = driver.find_elements(
-            By.CSS_SELECTOR, '.product-detail-main-image-container img, .pdp-secondary-image img')
-        image_sources = [re.sub('^//', 'https://', image.get_attribute('src'))
-                         for image in images]  # Formats the url
-
-        # Download and save the images into the directory
-        for i, image_source in enumerate(image_sources):
-            filename = f"{product_code}/image_{i+1}.jpg"
-            urllib.request.urlretrieve(image_source, filename)
-
-        # Quit the webdriver
-        driver.quit()
-
-        # print(f'Images for product code {product_code} downloaded successfully.'
-
+            # Download and save the images into the directory
+            for i, image_source in enumerate(image_sources):
+                filename = f"{product_code}/image_{i+1}.jpg"
+                urllib.request.urlretrieve(image_source, filename)
+                
+            print(f'Images for product code {product_code} downloaded successfully.')
+            
+        except Exception as e:
+            
+            print(f'Error downloading images for product code {product_code}: {str(e)}')
+    # Quit the webdriver
+    driver.quit()
+    
 # Main Script
 
 # READS THE DATA INTO DATAFRAME AND EXTRACTS THE PRODUCT CODE INTO LIST
