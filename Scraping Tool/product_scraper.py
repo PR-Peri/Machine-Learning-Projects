@@ -124,4 +124,6 @@ product_data['prod_code_updated'] = product_data['prod_code'].apply(
 updated_product_code = product_data['prod_code_updated'].tolist()
 
 # EXTRACTS ALL THE MEDIAS INTO LOCAL FOLDER
-scraper = scrape_product_images(product_code)
+# scraper = scrape_product_images(product_code)
+scraper = scrape_product_images(updated_product_code)
+
