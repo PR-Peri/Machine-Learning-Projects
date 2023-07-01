@@ -1,7 +1,7 @@
 # Classification of Heart Disease using Machine Learning Techniques
 
 
-  The most complicated and complex task in the field of medical is the prediction of heart disease becuase Heart is considered to be the most vital organ of the human body. In general, the objective of my project is to classify and predict heart disease accurately. If the data at hand is used to develop screening and diagnostic models, it will not only reduce the strain on medical personnel but also aid early detection and prompt treatment for patients thereby drastically enhancing the health system. Furthermore, it can also aid in devising a monitory and preventive program for those who might be vulnerable that cause them to suffer from heart disease, based on their medical or family history. In this era of Data Science, ML algorithms are constantly being used, across various fields, to gain meaningful insights and leverage the information mined to make decisions.
+<p style="text-align: justify;">The most complicated and complex task in the field of medical is the prediction of heart disease becuase Heart is considered to be the most vital organ of the human body. In general, the objective of my project is to classify and predict heart disease accurately. If the data at hand is used to develop screening and diagnostic models, it will not only reduce the strain on medical personnel but also aid early detection and prompt treatment for patients thereby drastically enhancing the health system. Furthermore, it can also aid in devising a monitory and preventive program for those who might be vulnerable that cause them to suffer from heart disease, based on their medical or family history. In this era of Data Science, ML algorithms are constantly being used, across various fields, to gain meaningful insights and leverage the information mined to make decisions.
 
   As for this project, it includes analysis of the heart disease based on the patient's heart dataset with proper data cleaning and data processing. Then, a model will be implemented, next it will be trained and predictions will be made with four different algorithms, such as Logistic Regression, Naive Bayes, Random Forest and Artificial Neural Networks. After implmenting the models. then they will be  used to evaluate the performance of all 4 algorithms and then we can finally make comparision, to find for the most accurate technique so that it can be implemented in the future. 
 
@@ -27,6 +27,6 @@ Neural networks, it is trained using gradient descent where the estimate of the 
 RESULTS
 ------------------------------
 From the output, we can see that LR outperforms for Hungary and Statlog dataset whereas ANN outperforms for Cleveland Dataset. The least accuracy from the overall diagram is given by NB for Hungary dataset and after further analysis, we have discovered that NB did not perform well due to a higher bias but lower variance compared to LR. If the data set follows the bias then NB will be a better classifier. Both NB and LR are linear classifiers, LR makes a prediction for the probability using a direct functional form whereas NB figures out how the data was generated given the results. that is why LR perofrms better than NB
- 
+ </p>
 
 
