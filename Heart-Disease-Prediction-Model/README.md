@@ -1,5 +1,4 @@
-# FYP_PR
-Classification of Heart Disease using Machine Learning Techniques
+# Classification of Heart Disease using Machine Learning Techniques
 
 
   The most complicated and complex task in the field of medical is the prediction of heart disease becuase Heart is considered to be the most vital organ of the human body. In general, the objective of my project is to classify and predict heart disease accurately. If the data at hand is used to develop screening and diagnostic models, it will not only reduce the strain on medical personnel but also aid early detection and prompt treatment for patients thereby drastically enhancing the health system. Furthermore, it can also aid in devising a monitory and preventive program for those who might be vulnerable that cause them to suffer from heart disease, based on their medical or family history. In this era of Data Science, ML algorithms are constantly being used, across various fields, to gain meaningful insights and leverage the information mined to make decisions.
