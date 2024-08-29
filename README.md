@@ -13,11 +13,6 @@ Collection of my ML/A.I. works
         [Link to Article]
     </a>
 </li>
-<li> APS_Failure_Detection - Comprehensive Data Analysis and Model Selection for Predictive Maintenance
-    <a href="https://pr-peri.github.io/2023/04/12/aps-model.html" title="Link to GitHub Repository">
-        [Link to Article]
-    </a>
-</li>
 <li> Breast-Cancer-Prediction-Model - Breast Cancer Diagnosis Using Machine Learning: A Comprehensive Analysis
     <a href="https://pr-peri.github.io/2022/11/18/breast-cancer.html" title="Link to GitHub Repository">
         [Link to Article]
